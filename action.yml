@@ -1,0 +1,13 @@
+name: 'Update Blog Posts'
+description: 'Updates a README with latest blog posts from RSS'
+inputs:
+  feed_url:
+    description: 'RSS Feed URL'
+    required: true
+  max_posts:
+    description: 'Number of posts'
+    required: false
+    default: '5'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
