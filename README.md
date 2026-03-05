@@ -88,7 +88,8 @@ It should look like below, e.g. if you wish to display latest 7 posts instead of
 ```
 To modify how often the action runs, you only need to change the `cron` expression in the workflow.  
 Examples:  
-Run every hour: `cron: "0 * * * *"`
-Run every 3 hours: `cron: "0 */3 * * *"`
-Run every 12 hours: `cron: "0 */12 * * *"`
+Run every hour: `cron: "0 * * * *"`  
+Run every 3 hours: `cron: "0 */3 * * *"`  
+Run every 12 hours: `cron: "0 */12 * * *"`  
 Run once per day: `cron: "0 0 * * *"`  
+If you liked the action, don't forget to give it a star! ⭐
